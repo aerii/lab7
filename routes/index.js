@@ -18,6 +18,7 @@ exports.view = function(req, res){
 
 exports.viewGrid = function(req, res){
 		console.log("second");
+		
 		projects["grid"] = true;
   	res.render('index', projects);
 };
